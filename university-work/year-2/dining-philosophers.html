@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>262 - Jonathan Simon Jones Blogs</title>
+  <title>The Dining Philosophers - Jonathan Simon Jones Blogs</title>
   <meta name="author" content="Jonathan Simon Jones">
 
   
-  <meta name="description" content="262 May 23rd, 2014 Task - Create a flash game Software used - Adobe Photoshop, Adobe Flash Professional Languages used - ActionScript 2.0 &hellip;">
+  <meta name="description" content="The Dining Philosophers May 24th, 2014 Task - Create a program that demonstrates the advantages of using multithreading. Software used - Visual &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://JonathanSimonJones.github.io/university-work/year-1/262.html">
+  <link rel="canonical" href="http://JonathanSimonJones.github.io/university-work/year-2/dining-philosophers.html">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Jonathan Simon Jones Blogs" type="application/atom+xml">
@@ -67,7 +67,7 @@
 <article role="article">
   
   <header>
-    <h1 class="entry-title">262</h1>
+    <h1 class="entry-title">The Dining Philosophers</h1>
     <p class="meta">
 
 
@@ -80,21 +80,18 @@
   
 
 
-<time datetime="2014-05-23T22:53:00+01:00" pubdate data-updated="true">May 23<span>rd</span>, 2014</time></p>
+<time datetime="2014-05-24T12:16:00+01:00" pubdate data-updated="true">May 24<span>th</span>, 2014</time></p>
   </header>
   
   <p>
-	Task - Create a flash game <br>
-	Software used - Adobe Photoshop, Adobe Flash Professional<br>
-	Languages used - ActionScript 2.0<br>
+	Task - Create a program that demonstrates the advantages of using multithreading.<br>
+	Software used - Visual Studio<br>
 	Description - <br>
-	262 is a 2D shooter based around defending your ship from incoming aliens who are trying to come over the barricade to attack the ship. The enemies approach from the right side of the screen and stop to attack the barricade. To stop the aliens the player has a turret which has a limited degree of motion. The objective of the game is to try and stop as many enemies as you can!<br><br>
-	The play the game follow this link: 
-	<a href="/university-work/year-1/262-game.html">262 Game</a><br>
-	(WARNING game audio starts immediately and is quite loud!)<br><br>
-	All source code, Flash and .swf files can be downloaded from this link: <a href="https://www.dropbox.com/s/z2tc1c7t6ijk49o/JonathanSimonJones262Source.zip">Source Download</a><br>
-
-	<img src="/images/university-work/year-1/262.png" alt="A screenshot mid game. The ship the player must defend is on the far left of the image. The barricade is just in front of the ship. Enemies are approaching from the right. The turret on the ship is shooting at them. The background showns a mountainous range and beyond is space."/>
+	A graphical program was created to demonstate the uses of multithreading to solve a variation of the dining philosophers problem (<a href="http://en.wikipedia.org/wiki/Dining_philosophers_problem">Link</a>). The problem is used to illustrate the issue of deadlock and goes as follows. Five philosophers are sitting around a table. Each has one chopstick. Each has a bowl of rice. The philosophers can be doing one of three things: working, sleeping, or eating. The cycle a philosopher takes is working -> sleeping -> eating. To eat a philospher must have two chopsticks. This raises a problem however as there are only 5 chopsticks and 5 philosphers meaning only 2 philosphers can eat at one time. If each philosopher picks up one chopstick the reach a deadlock situation as each of the philosophers is waiting on another chopstick to eat the rice but no philospher is willing to give up the chopstick he already holds. <br>
+	In the program each philosopher has its own thread. The chopsticks are available to any philosopher by a request from that philosopher. The chopsticks are held in a container. <br>
+	To deadlock problem was solved in two ways. Firstly the function which allows a philosopher to access the chopstick container was protected by a mutex. Secondly a semaphore was used to stop all the philosophers entering the function to grab a chopstick. Using these two methods resolved the issue of the philosophers reaching a deadlock condition. <br><br>
+	Here is a link to the source code, an evaluation of the project and some slides for a presentation I did on the project: <a href="https://www.dropbox.com/s/rrhm5oysy5b7see/JonathanSimonJonesDiningPhilosopherProject.zip">Source/report/presentation download</a><br><br>
+	<img src="/images/university-work/year-2/dining-philosopher-screenshot.png" alt="An image of the program running. In is a 5 blue squares situated slightly off a pentagon which has 5 yellow rectangles on it. The background is black."/><br>
 </p>
   
     <footer>
@@ -112,12 +109,12 @@
   
 
 
-<time datetime="2014-05-23T22:53:00+01:00" pubdate data-updated="true">May 23<span>rd</span>, 2014</time>
+<time datetime="2014-05-24T12:16:00+01:00" pubdate data-updated="true">May 24<span>th</span>, 2014</time>
         
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/2d/'>2D</a>, <a class='category' href='/blog/categories/actionscript/'>ActionScript</a>, <a class='category' href='/blog/categories/flash/'>Flash</a>, <a class='category' href='/blog/categories/game/'>Game</a>, <a class='category' href='/blog/categories/photoshop/'>PhotoShop</a>, <a class='category' href='/blog/categories/shooter/'>Shooter</a>, <a class='category' href='/blog/categories/university-work/'>University Work</a>
+    <a class='category' href='/blog/categories/multithreading/'>Multithreading</a>, <a class='category' href='/blog/categories/university-work/'>University Work</a>, <a class='category' href='/blog/categories/visual-studio/'>Visual Studio</a>
   
 </span>
 
@@ -126,7 +123,7 @@
       
         <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://JonathanSimonJones.github.io/university-work/year-1/262.html" data-via="" data-counturl="http://JonathanSimonJones.github.io/university-work/year-1/262.html" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://JonathanSimonJones.github.io/university-work/year-2/dining-philosophers.html" data-via="" data-counturl="http://JonathanSimonJones.github.io/university-work/year-2/dining-philosophers.html" >Tweet</a>
   
   
   
