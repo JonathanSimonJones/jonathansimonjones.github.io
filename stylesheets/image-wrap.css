@@ -1,0 +1,18 @@
+/* image wrap */
+
+/* styling for the image wrapper  */
+#image_wrap {
+    /* dimensions */
+    width:634px;
+    padding:15px 0;
+    margin: 0 auto;
+ 
+    /* centered */
+    text-align:center;
+ 
+    /* some "skinning" */
+    background-color:#efefef;
+    border:2px solid #fff;
+    outline:1px solid #ddd;
+    -moz-ouline-radius:4px;
+}
