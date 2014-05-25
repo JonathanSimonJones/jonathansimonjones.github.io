@@ -9,7 +9,7 @@
   <meta name="author" content="Jonathan Simon Jones">
 
   
-  <meta name="description" content="The Dining Philosophers May 24th, 2014 Task - Create a program that demonstrates the advantages of using multithreading. Software used - Visual &hellip;">
+  <meta name="description" content="The Dining Philosophers May 24th, 2014 Task Create a program that demonstrates the advantages of using multithreading. Software used Visual Studio &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -83,18 +83,53 @@
 <time datetime="2014-05-24T12:16:00+01:00" pubdate data-updated="true">May 24<span>th</span>, 2014</time></p>
   </header>
   
-  <p>
-	Task - Create a program that demonstrates the advantages of using multithreading.<br>
-	Software used - Visual Studio<br>
-	Languages used - C++<br>
-	Framework used - <a href="http://nehe.gamedev.net/">NeHe</a><br>
-	Description - <br>
-	A graphical program was created to demonstate the uses of multithreading to solve a variation of the dining philosophers problem (<a href="http://en.wikipedia.org/wiki/Dining_philosophers_problem">Link</a>). The problem is used to illustrate the issue of deadlock and goes as follows. Five philosophers are sitting around a table. Each has one chopstick. Each has a bowl of rice. The philosophers can be doing one of three things: working, sleeping, or eating. The cycle a philosopher takes is working -> sleeping -> eating. To eat a philospher must have two chopsticks. This raises a problem however as there are only 5 chopsticks and 5 philosphers meaning only 2 philosphers can eat at one time. If each philosopher picks up one chopstick the reach a deadlock situation as each of the philosophers is waiting on another chopstick to eat the rice but no philospher is willing to give up the chopstick he already holds. <br>
-	In the program each philosopher has its own thread. The chopsticks are available to any philosopher by a request from that philosopher. The chopsticks are held in a container. <br>
-	To deadlock problem was solved in two ways. Firstly the function which allows a philosopher to access the chopstick container was protected by a mutex. Secondly a semaphore was used to stop all the philosophers entering the function to grab a chopstick. Using these two methods resolved the issue of the philosophers reaching a deadlock condition. <br><br>
-	Here is a link to the source code, an evaluation of the project and some slides for a presentation I did on the project: <a href="https://www.dropbox.com/s/rrhm5oysy5b7see/JonathanSimonJonesDiningPhilosopherProject.zip">Source/report/presentation download</a><br><br>
-	<img src="/images/university-work/year-2/dining-philosopher-sceenshot.png" alt="An image of the program running. In is a 5 blue squares situated slightly off a pentagon which has 5 yellow rectangles on it. The background is black."/><br>
-</p>
+  <div>
+
+	<h2>Task</h2>
+
+	<p>Create a program that demonstrates the advantages of using multithreading.</p>
+
+</div>
+
+<div>
+
+	<h2>Software used</h2> 
+
+	<p>Visual Studio</p>
+
+</div>
+
+<div>
+
+	<h2>Description</h2>
+
+		<p>
+			A graphical program was created to demonstate the uses of multithreading to solve a variation of the dining philosophers problem (<a href="http://en.wikipedia.org/wiki/Dining_philosophers_problem">Link</a>). The problem is used to illustrate the issue of deadlock and goes as follows. Five philosophers are sitting around a table. Each has one chopstick. Each has a bowl of rice. The philosophers can be doing one of three things: working, sleeping, or eating. The cycle a philosopher takes is working -> sleeping -> eating. To eat a philospher must have two chopsticks. This raises a problem however as there are only 5 chopsticks and 5 philosphers meaning only 2 philosphers can eat at one time. If each philosopher picks up one chopstick the reach a deadlock situation as each of the philosophers is waiting on another chopstick to eat the rice but no philospher is willing to give up the chopstick he already holds. 
+		</p>
+
+		<p>
+			In the program each philosopher has its own thread. The chopsticks are available to any philosopher by a request from that philosopher. The chopsticks are held in a container.
+		</p>
+
+		<p>
+			To deadlock problem was solved in two ways. Firstly the function which allows a philosopher to access the chopstick container was protected by a mutex. Secondly a semaphore was used to stop all the philosophers entering the function to grab a chopstick. Using these two methods resolved the issue of the philosophers reaching a deadlock condition.
+		</p>
+
+</div>
+
+<div>
+
+	<p>
+		Here is a link to the source code, an evaluation of the project and some slides for a presentation I did on the project: <a href="https://www.dropbox.com/s/rrhm5oysy5b7see/JonathanSimonJonesDiningPhilosopherProject.zip" target="_blank">Source/report/presentation download</a>
+	</p>
+
+</div>
+
+<div>
+
+	<img src="/images/university-work/year-2/dining-philosopher-sceenshot.png" alt="An image of the program running. In is a 5 blue squares situated slightly off a pentagon which has 5 yellow rectangles on it. The background is black."/>
+
+</div>
   
     <footer>
       <p class="meta">
