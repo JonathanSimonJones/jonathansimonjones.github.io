@@ -4,7 +4,7 @@
   <title><![CDATA[Jonathan Simon Jones Blogs]]></title>
   <link href="http://JonathanSimonJones.github.io/atom.xml" rel="self"/>
   <link href="http://JonathanSimonJones.github.io/"/>
-  <updated>2014-06-23T15:12:28+01:00</updated>
+  <updated>2014-06-25T13:42:40+01:00</updated>
   <id>http://JonathanSimonJones.github.io/</id>
   <author>
     <name><![CDATA[Jonathan Simon Jones]]></name>
@@ -12,19 +12,5 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Tutorial - Creating a Website Using Github and Octopress]]></title>
-    <link href="http://JonathanSimonJones.github.io/blog/2014/05/22/first-post/"/>
-    <updated>2014-05-22T20:22:07+01:00</updated>
-    <id>http://JonathanSimonJones.github.io/blog/2014/05/22/first-post</id>
-    <content type="html"><![CDATA[<p>Websites used &ndash;
-Non official, but helpful, tutorial on how to setup an Octopress blog- <a href="http://code.dblock.org/octopress-setting-up-a-blog-and-contributing-to-an-existing-one">http://code.dblock.org/octopress-setting-up-a-blog-and-contributing-to-an-existing-one</a></p>
-
-<p>Official Octopress tutorial &ndash; <a href="http://octopress.org/docs/">http://octopress.org/docs/</a></p>
-
-<p>Ruby Download page &ndash; <a href="http://rubyinstaller.org/downloads/">http://rubyinstaller.org/downloads/</a></p>
-]]></content>
-  </entry>
   
 </feed>
