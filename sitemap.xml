@@ -33,16 +33,6 @@
         <lastmod>2014-06-23T17:14:16+01:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://JonathanSimonJones.github.io/independant-projects/elements-of-computing-systems.html
-        </loc>
-        <lastmod>2014-06-25T13:34:54+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://JonathanSimonJones.github.io/independant-projects/</loc>
-        <lastmod>2014-06-25T13:37:04+01:00</lastmod>
-    </url>
-    <url>
         <loc>http://JonathanSimonJones.github.io/</loc>
         <lastmod>2014-06-25T13:00:08+01:00</lastmod>
     </url>
@@ -51,6 +41,10 @@
             http://JonathanSimonJones.github.io/personal-projects/elements-of-computing-systems.html
         </loc>
         <lastmod>2014-06-24T14:48:48+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://JonathanSimonJones.github.io/personal-projects/</loc>
+        <lastmod>2014-06-25T13:48:38+01:00</lastmod>
     </url>
     <url>
         <loc>http://JonathanSimonJones.github.io/robots.txt</loc>
