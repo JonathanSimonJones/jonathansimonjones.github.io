@@ -1,0 +1,19 @@
+/* image wrap */
+
+/* styling for the image wrapper  */
+.thumbnail {
+    white-space:nowrap;
+}
+
+.thumbnailscontainer{
+    overflow:hidden;
+}
+
+.thumbnailsection{
+    float: left;
+}
+
+.thumbnailtitle
+{
+    text-align: center;
+}
