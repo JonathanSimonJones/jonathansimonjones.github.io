@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Screen, | Jonathan Simon Jones Website]]></title>
+  <link href="http://JonathanSimonJones.github.io/blog/categories/screen/atom.xml" rel="self"/>
+  <link href="http://JonathanSimonJones.github.io/"/>
+  <updated>2014-10-09T00:06:39+01:00</updated>
+  <id>http://JonathanSimonJones.github.io/</id>
+  <author>
+    <name><![CDATA[Jonathan Simon Jones]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How to Disable a Monitor or Screen in Windows 7 - Using Nvidia Control Panel]]></title>
+    <link href="http://JonathanSimonJones.github.io/blog/2014/10/08/how-to-disable-monitor-or-screen-using-nvidia-control-panel/"/>
+    <updated>2014-10-08T20:04:30+01:00</updated>
+    <id>http://JonathanSimonJones.github.io/blog/2014/10/08/how-to-disable-monitor-or-screen-using-nvidia-control-panel</id>
+    <content type="html"><![CDATA[<div>
+    <div>
+        <u><h2>Introduction</h2></u>
+        <p>Firstly I would like to note that this method only works if you have an Nvidia graphics card. If you are looking for a way to disable a monitor not using Nvidia control panel then it might be worth your while looking <a href="http://www.tomshardware.co.uk/forum/385391-33-disable-screen-unplugging-everytime">here</a> or <a href="http://www.logicasart.com/2011/03/how-to-enable-or-disable-second-monitor-in-windows-7/">here</a>. Personally however I think the method described below is easier and more intuitive (if you have an Nvidia Card. You can be the judge :) </p>
+    </div>
+
+    <div>
+        <u><h2>Tutorial</h2></u>
+        <p>This is only for computers running/using Windows 7 with an Nvidia Graphics card, see above for alternatives or if you are unsure if you have a Nvidia graphics card.</p>
+
+        <h4>Quick guide (indepth guide below)</h4>
+        <div id="qguide">
+            <ol style="padding-left:2em;">
+                <li>Open Nvidia Control Panel.</li>
+                <li>Under <i>Display</i> click <i>Set up multiple monitors</i>.</li>
+                <li>Untick the box of the monitor you want to disable.</li>
+            </ol>
+        </div>
+
+        <h4>Indepth guide</h4>
+        <div id="step1">
+            <h5>Step 1</h5>
+            <p>Click on the start menu (little icon with 4 colours normally located on the bottom left).</p>
+            <img src="/images/blog-post-images/2014-10-08-how-to-disable-monitor-using-nvidia-control-panel-dot/windows-button.png"/>
+            
+        </div>
+        <br>
+        <div id="step2">
+            <h5>Step 2</h5>
+            <p>Once you see this menu appear click in the box that says <i>"search programs and files".</i></p>
+            <img src="/images/blog-post-images/2014-10-08-how-to-disable-monitor-using-nvidia-control-panel-dot/window-pop-up.png"/>
+            <
+        </div>
+        <br>
+        <div id="step3">
+            <h5>Step 3</h5>
+            <p>Type Nvidia Control Panel, above the box a program should appear which is called <i>Nvidia Control Panel</i>. If this doesn't happen for you it is either due to you not having a Nvidia graphics card or you may have a Nvidia graphics card that doesn't come with this program. In either case you won't be able to continue with this tutorial. Sorry :(.</p>
+            <img src="/images/blog-post-images/2014-10-08-how-to-disable-monitor-using-nvidia-control-panel-dot/search-result.png"/>
+        
+        </div>
+        <br>
+        <div id="step4">
+            <h5>Step 4</h5>
+            <p>Once the Nvidia control panel window opens up look to the list of items on the left, you should see a list of items starting with <i>3D Settings</i> which has the options: Adjust image settings with preview, manage 3D settings, configure surround, PhysX. Don't worry if the text is slightly different it doesn't matter. Under the <i>Display</i> heading look at the bottom of the list of items and it should say <i>Set up multiple displays</i>. Click this.</p>
+            <img src="/images/blog-post-images/2014-10-08-how-to-disable-monitor-using-nvidia-control-panel-dot/select-set-up-multiple-displays.png"/>
+
+        </div>
+        <br>
+        <div id="step5">
+            <h5>Step 5</h5>
+            <p>You should now see a screen which has a list of your monitors. All you need to do now is untick the box (which should be ticked) that has the name of the monitor you want to turn off. You do this by click on the tick inside the box. Hopefully you have now disabled your monitor. If you want to turn it back on simply tick the box you unticked :).</p>
+            <img src="/images/blog-post-images/2014-10-08-how-to-disable-monitor-using-nvidia-control-panel-dot/select-tick-box.png"/>
+        </div>
+    </div>
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>
