@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Nvidia | Jonathan Simon Jones Website]]></title>
   <link href="http://JonathanSimonJones.github.io/blog/categories/nvidia/atom.xml" rel="self"/>
   <link href="http://JonathanSimonJones.github.io/"/>
-  <updated>2014-10-09T00:33:31+01:00</updated>
+  <updated>2014-10-09T09:57:04+01:00</updated>
   <id>http://JonathanSimonJones.github.io/</id>
   <author>
     <name><![CDATA[Jonathan Simon Jones]]></name>
@@ -21,7 +21,7 @@
     <content type="html"><![CDATA[<div>
     <div>
         <u><h2>Introduction</h2></u>
-        <p>Firstly I would like to note that this method only works if you have an Nvidia graphics card. If you are looking for a way to disable a monitor not using Nvidia control panel then it might be worth your while looking <a href="http://www.tomshardware.co.uk/forum/385391-33-disable-screen-unplugging-everytime">here</a> or <a href="http://www.logicasart.com/2011/03/how-to-enable-or-disable-second-monitor-in-windows-7/">here</a>. Personally however I think the method described below is easier and more intuitive (if you have an Nvidia Card). You can be the judge :) </p>
+        <p>Firstly I would like to note that this method only works if you have an Nvidia graphics card. If you are looking for a way to disable a monitor not using Nvidia control panel (the tutorial uses version: 8.0.760.0, but it should be relevent for a number of other versions even though this hasn't been tested) then it might be worth your while looking <a href="http://www.tomshardware.co.uk/forum/385391-33-disable-screen-unplugging-everytime">here</a> or <a href="http://www.logicasart.com/2011/03/how-to-enable-or-disable-second-monitor-in-windows-7/">here</a>. Personally however I think the method described below is easier and more intuitive (if you have an Nvidia Card). You can be the judge :) </p>
     </div>
 
     <div>
@@ -49,7 +49,6 @@
             <h5>Step 2</h5>
             <p>Once you see this menu appear click in the box that says <i>"search programs and files".</i></p>
             <img src="/images/blog-post-images/2014-10-08-tutorial-how-to-disable-monitor-using-nvidia-control-panel/window-pop-up.png"/>
-            <
         </div>
         <br>
         <div id="step3">
